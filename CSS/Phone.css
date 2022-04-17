@@ -1,3 +1,60 @@
-body{
-    background-color: red;
+/*navigation*/
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 16px;
+    padding: 0px 7px;;
+}
+
+
+
+/*Home*/
+#home{
+    height: 583px;
+    padding: 38px 58px;
+}
+#home::before{
+    height: 730px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/*Services*/
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+   
+}
+
+
+/*Outlets*/
+#Outlets-section{
+    flex-wrap: wrap;
+}
+#Outlets-section img{
+    width: 70px;
+}
+
+/*contactUs*/
+
+#contactus{
+
+}
+
+footer{
+
+}
+
+.h-primary{
+    font-size: 18px;
+}
+.btn{
+    font-size: 22px;
+    padding: 10px 15px;
 }
